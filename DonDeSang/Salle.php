@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Salle.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <div>
+            <label for="titre">Gestion des salles</label>
+        </div>
+        <form action="ajoutsalle.php">
+            <label for="ajouterSalle">Ajouter salle</label><br> 
+            Nom :
+            <input type:"text"><br>
+            Capacité max :
+            <input type:"text"><br>
+
+            <tr>
+                <td>
+                    <label for="DonPoss">Don possible :</label>
+                </td>
+                <td>
+                    <select>
+                        <option>Sang</option>
+                        <option>Plasma</option>
+                        <option>Plaquettes</option>
+                    </select>
+                </td>
+            </tr> <br>
+
+            <input type="submit" name="Ajouter" value="Ajouter">
+        </form>          
+</body>
+</html>
